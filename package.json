@@ -4,9 +4,12 @@
   "description": "qa test",
   "private": true,
   "scripts": {
-    "dev": "node src/index.js"
+    "dev": "node src/index.js",
+    "test": "cucumber-js"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5"
   }
 }
